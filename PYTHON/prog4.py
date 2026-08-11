@@ -4,16 +4,16 @@ Type "help", "copyright", "credits" or "license()" for more information.
 operations including slicing formatting and 
 built-in string functions"""
 
-str = "harshrajsinh rana"
+str = "vivek chauhan"
 >>> 
 >>> print(str.upper())
-HARSHRAJSINH RANA
+VIVEK CHAUHAN
 >>> print(str.lower())
-harshrajsinh rana
+vivek chauhan
 >>> print(str.capitalize())
-Harshrajsinh rana
+Vivek chauhan
 >>> print(str.split(" "))
-['harshrajsinh', 'rana']
+['vivek', 'chauhan']
 >>> print(str.count())
 Traceback (most recent call last):
   File "<pyshell#6>", line 1, in <module>
@@ -21,5 +21,5 @@ Traceback (most recent call last):
 TypeError: count expected at least 1 argument, got 0
 >>> print(len(str))
 17
->>> print(str.replace("h","H"))
-HarsHrajsinH rana
+>>> print(str.replace("v","V"))
+Vivek chauhan
