@@ -10,7 +10,7 @@ print(tup[0:2])
 print(tup[::2])
 print(tup[1:3])
 
-hr = {1,"Harshrajsinh"}
+hr = {1,"Vivek"}
 print(hr)
 
 
